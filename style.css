@@ -1,0 +1,175 @@
+
+body {
+    background-color: #eeeeee;
+    font-family: "Times New Roman";
+}
+
+/* Cover Page */
+.cover {
+    width: 100%;
+    max-width: 900px;
+    height: 650px;
+    background-color: #f8f7ef;
+    border: 4px solid navy;
+    margin: 20px auto;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.inner-border {
+    height: 100%;
+    border: 1px solid navy;
+    text-align: center;
+    position: relative;
+}
+
+h2 {
+    color: #16427d;
+    font-size: 21px;
+}
+
+img {
+    width: 75px;
+    height: 75px;
+    margin-top: 10px;
+}
+
+h3 {
+    color: #16427d;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.title {
+    color: #b41446;
+    margin-top: 25px;
+}
+
+.title h2 {
+    color: #b41446;
+    margin: 5px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    color: #16427d;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* Main Syllabus */
+.main-syllabus {
+    background-color: white;
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 2px solid navy;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Main Heading */
+.main-syllabus h1 {
+    color: navy;
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+/* Subject Headings */
+.main-syllabus h2 {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* Unit Headings */
+.main-syllabus h3 {
+    color: navy;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Paragraphs */
+.main-syllabus p {
+    color: black;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* Tables */
+.main-syllabus table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0 25px;
+}
+
+.main-syllabus th,
+.main-syllabus td {
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.main-syllabus th {
+    background-color: #dddddd;
+}
+
+/* Book Lists */
+.main-syllabus ol {
+    margin-left: 25px;
+    line-height: 1.8;
+}
+
+.main-syllabus li {
+    margin-bottom: 5px;
+}
+
+/* Mobile Design */
+@media screen and (max-width: 600px) {
+    .cover {
+        height: 650px;
+    }
+
+    .main-syllabus {
+        padding: 12px;
+    }
+
+    .main-syllabus h1 {
+        font-size: 22px;
+    }
+
+    .main-syllabus h2 {
+        font-size: 18px;
+    }
+
+    .main-syllabus h3 {
+        font-size: 16px;
+    }
+
+    .main-syllabus p {
+        font-size: 14px;
+    }
+
+    .main-syllabus table {
+        display: block;
+        overflow-x: auto;
+    }
+
+    .main-syllabus th,
+    .main-syllabus td {
+        padding: 4px;
+        font-size: 12px;
+    }
+}
