@@ -173,3 +173,21 @@ h3 {
         font-size: 12px;
     }
 }
+/* Mobile Cover Page Size */
+@media screen and (max-width: 600px) {
+    .cover-page {
+        min-height: 85vh;
+        padding: 25px 15px;
+        box-sizing: border-box;
+    }
+
+    .cover-page h1,
+    .cover-page h2 {
+        font-size: 22px;
+    }
+
+    .cover-page img {
+        max-width: 90px;
+        height: auto;
+    }
+}
